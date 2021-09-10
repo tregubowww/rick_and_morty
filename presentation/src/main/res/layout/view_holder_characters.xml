@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/characterImageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        tools:srcCompat="@drawable/tools_characters_item" />
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/ping"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:text="Alive"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="Rick Sanchez" />
+
+    <TextView
+        android:id="@+id/speciesAndGenderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/gray"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:text="Human, Male"
+        tools:ignore="SmallSp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+

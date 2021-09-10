@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">rick_and_morty</string>
+    <string name="characters">Characters</string>
+    <string name="locations">Locations</string>
+    <string name="episodes">Episodes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_retry">Retry</string>
+    <string name="label_error">Something went wrong, please try again</string>
+    <string name="name">Name</string>
+    <string name="rick">Rick</string>
+    <string name="status">Status</string>
+    <string name="alive">alive</string>
+    <string name="dead">dead</string>
+    <string name="unknown">unknown</string>
+    <string name="species">Species</string>
+    <string name="alien">alien</string>
+    <string name="human">human</string>
+    <string name="type">Type</string>
+    <string name="human_with_antennae">Human with antennae</string>
+    <string name="female">female</string>
+    <string name="male">male</string>
+    <string name="genderless">genderless</string>
+    <string name="cancel">cancel</string>
+    <string name="error_loading">Error loading</string>
+    <string name="gender">Gender</string>
+    <string name="race">Race</string>
+    <string name="origin_location">Origin Location</string>
+    <string name="location">Location</string>
+    <string name="search">Search</string>
+    <string name="back">back</string>
+    <string name="dimension">Dimension</string>
+    <string name="release_date">Release Date</string>
+    <string name="residents">Residents</string>
+</resources>
